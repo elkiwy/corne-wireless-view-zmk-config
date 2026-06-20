@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: elkiwy
+      url-base: https://github.com/elkiwy
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: elkiwy
+      revision: update-2026
       import: app/west.yml
   self:
     path: config
